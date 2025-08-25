@@ -1,0 +1,12 @@
+.button{
+    border: none !important;
+    padding: 21px 37px !important;
+    border-radius: 16px !important;
+    /* background-color: black !important; */
+    color: white;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    img{
+        margin-left: 17px;
+    }
+}

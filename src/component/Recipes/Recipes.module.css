@@ -1,0 +1,46 @@
+.wrap h2{
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 48px;
+}
+
+.wrap p{
+    color:#00000099;
+    margin-bottom: 96px;
+    text-align: center;
+    width: 706px;
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 400px;
+    border-radius: 30px;
+    padding: 16px 16px 32px 16px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+
+.card>img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 24px;
+}
+
+.card span{
+    margin-right: 24px;
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.card h4{
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}

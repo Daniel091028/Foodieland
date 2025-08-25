@@ -1,0 +1,38 @@
+.categoriesHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories {
+    padding-top: 160px;
+    padding-bottom: 183px;
+}
+
+
+.card {
+        cursor: pointer;
+    background: linear-gradient(to bottom,
+            rgba(112, 130, 70, 0),
+            rgba(231, 250, 254, 1));
+    border-radius: 16px;
+    width: 180px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 40px 30px 40px;
+    img{
+        width: 120px;
+        height: 100px;
+    }
+    h3{
+        font-size: 18px;
+    }
+}
+
+.cards{
+    padding-top: 80px;
+}

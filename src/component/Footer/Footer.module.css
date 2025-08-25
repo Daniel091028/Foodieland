@@ -1,0 +1,43 @@
+.footer{
+    margin: 160px 80px 48px 80px;
+}
+
+.footerStart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerMenu ul{
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+}
+
+.footerText img{
+    padding-bottom: 16px;
+}
+
+.footerText p{
+    color: #00000099;
+    padding-bottom: 50px;
+}
+
+.footerEnd{
+    padding-top: 50px;
+    display: flex;
+    justify-content: end;
+    gap: 330px;
+}
+
+.footerEnd div{
+    display: flex;
+    gap: 40px;
+}
+
+.orange{
+    color: rgb(255, 89, 0);
+}
+
+.footerEnd p{
+    color:#00000099;
+}

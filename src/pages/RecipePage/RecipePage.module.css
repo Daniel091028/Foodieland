@@ -1,0 +1,30 @@
+h2{
+    padding-top: 80px;
+    padding-left: 80px;
+    font-size: 64px;
+    font-weight: 600;
+}
+p{
+    color:#00000099;
+}
+.time{
+    display: flex;
+    gap: 20px;
+    padding-top: 48px;
+    padding-bottom: 64px;
+    padding-left: 80px;
+}
+.knife{
+    display: flex;
+    align-items: center;
+}
+iframe{
+    width: 840px;
+    height: 600px;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+.knife img{
+    width: 24px;
+    height: 24px;
+}
