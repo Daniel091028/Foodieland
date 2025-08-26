@@ -1,17 +1,23 @@
 
 
-import { useParams } from "react-router-dom"
+import { useParams, useNavigate } from "react-router-dom"
 import { useState, useEffect } from "react"
 import style from "./RecipePage.module.css"
 import { apiFood } from "../../service/foodApi"
 import avatar from "../../assets/avatar.svg"
 import timer from "../../assets/timer.svg"
 import knife from "../../assets/knife.svg"
-
+import Button from "../../component/UI/Button/Button"
 
 const RecipePage = () => {
   const { id } = useParams()
   const [recipe, setRecipe] = useState({})
+  const navigate = useNavigate();
+
+  const handleBack = () => {
+    // navigate(-1)
+    navigate("/")
+  }
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -22,9 +28,15 @@ const RecipePage = () => {
     return <h2>Loading...</h2>
   }
 
-  const youtubeUrl = recipe.strYoutube.replace("watch?v=","embed/")
+  const youtubeUrl = recipe.strYoutube.replace("watch?v=", "embed/")
   return (
     <div className="container">
+      <div style={{
+        margin: "20px 0"
+      }}>
+        <Button text="Go back" onClick={handleBack} />
+      </div>
+
       <h2>{recipe.strMeal}</h2>
       <div className={style.time}>
         <img src={avatar} alt="" />
